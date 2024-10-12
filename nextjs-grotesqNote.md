@@ -48,3 +48,18 @@ layout 과 template 가 동시에있으면? layout이먼저 => template가 안�
     -/package.json
     -/first-project
     -/package.json
+    -/second-project
+    -/package.json : 상위에도있고 하위에도 또생기지않게조심
+
+## 클라이언트 컴포넌트의 위치
+
+- /page-name
+
+  - page.tsx
+  - PrevButton.tsx
+
+- /app
+  - /page-name
+    - page.tsx
+- /components
+  - button.tsx
