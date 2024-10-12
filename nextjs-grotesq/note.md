@@ -38,3 +38,5 @@ Next.js 에서는 모든 컴포넌트를 서버 컴포넌트로 동작됨
     - ErrorView.tsx : 에러 출력을 위한 서버 컴포넌트 (x)
   - UserInfo.tsx : 로그인 후 사용자 정보가 표시되는 서버 컴포넌트
     - EditButton.tsx : 사용자가 클릭할 수 있는 수정 모드 전환 클라이언트 컴포넌트 (o)
+
+layout 과 template 가 동시에있으면? layout이먼저 => template가 안으로들어감

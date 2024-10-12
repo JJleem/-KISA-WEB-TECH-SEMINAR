@@ -1,4 +1,3 @@
-import Image from "next/image";
 import NewComponent from "./NewComponent";
 
 export default async function Home() {
